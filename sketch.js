@@ -23,7 +23,7 @@ function preload(){
 
 
 function setup() {
-  createCanvas(600,360);
+  createCanvas(windowWidth,windowHeight);
   
   background=createSprite(300,200);
   background.addImage(backgroundImg);
